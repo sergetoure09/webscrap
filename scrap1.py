@@ -23,5 +23,5 @@ for p in pages:
     
  
 print(price,address,desc,mls,img)    
-#data=pandas.DataFrame({"prop_mls":mls,"prop_desc":desc,"prop_address":address,"prop_price":price,"prop_img":img})
-#print(data)
+data=pandas.DataFrame({"prop_mls":mls,"prop_desc":desc,"prop_address":address,"prop_price":price,"prop_img":img})
+print(data)
